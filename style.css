@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #2b88f0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.allnumbers .numbers7to9 .btn {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  margin: 1px 1px;
+  font-size: 14px;
+  display: inline-block;
+}
+.allnumbers .numbers4to6 .btn {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  margin: 1px 1px;
+  font-size: 14px;
+  display: inline-block;
+}
+.allnumbers .numbers1to3 .btn {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  margin: 1px 1px;
+  font-size: 14px;
+  display: inline-block;
+}
+.other .btn {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  margin: 1px 1px;
+  font-size: 14px;
+  display: inline-block;
+}
+.other .equal {
+  background-color: orange;
+  color: white;
+  padding: 10px 10px 10px;
+  margin: 1px 1px;
+  font-size: 14px;
+}
+.operation .btn {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  margin: 1px 1px;
+  font-size: 14px;
+  display: inline-block;
+}
+.display .textarea {
+  width: 100%;
+  height: 70px;
+  resize: none;
+}
