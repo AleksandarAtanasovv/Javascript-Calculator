@@ -3,6 +3,9 @@ const plus = document.getElementById('plus');
 const minus = document.getElementById('minus');
 const multiplication = document.getElementById('multiply');
 const division = document.getElementById('division');
+const equal = document.getElementById('equal');
+const ac = document.getElementById('AC');
+const dot = document.getElementById('dot')
 //Numbers
 const one = document.getElementById('1');
 const two = document.getElementById('2');
@@ -29,4 +32,43 @@ multiplication.addEventListener('click', () =>{
 division.addEventListener('click', () =>{
     console.log(1);
 })
+equal.addEventListener('click', () =>{
+    console.log(1);
+})
+ac.addEventListener('click', () =>{
+    console.log(1);
+})
+dot.addEventListener('click', () =>{
+    console.log(1);
+})
 //Number Event Listeners
+
+one.addEventListener('click', () =>{
+    console.log(1);
+})
+two.addEventListener('click', () =>{
+    console.log(1);
+})
+three.addEventListener('click', () =>{
+    console.log(1);
+})
+four.addEventListener('click', () =>{
+    console.log(1);
+})
+five.addEventListener('click', () =>{
+    console.log(1);
+})
+six.addEventListener('click', () =>{
+    console.log(1);
+})
+seven.addEventListener('click', () =>{
+    console.log(1);
+})
+eight.addEventListener('click', () =>{
+    console.log(1);
+})
+nine.addEventListener('click', () =>{
+    console.log(1);
+})
+zero.addEventListener('click', () =>{
+})
