@@ -17,58 +17,72 @@ const seven = document.getElementById('7');
 const eight = document.getElementById('8');
 const nine = document.getElementById('9');
 const zero = document.getElementById('0');
+//Display
+const display = document.getElementById('textarea');
 
+// Variables
 
+let operation = '';
+let number = 0;
+let finalSum = 0;
+let addDot = "";
 //Operation Event Listeners
 plus.addEventListener('click', () =>{
-    console.log(1);
+    operation = "+"
 })
 minus.addEventListener('click', () =>{
-    console.log(1);
+   operation = "-"
 })
 multiplication.addEventListener('click', () =>{
-    console.log(1);
+    operation = "*"
 })
 division.addEventListener('click', () =>{
-    console.log(1);
+    operation = "/"
 })
 equal.addEventListener('click', () =>{
-    console.log(1);
+    sumNums();
 })
 ac.addEventListener('click', () =>{
-    console.log(1);
+    display.innerHTML = '';
 })
 dot.addEventListener('click', () =>{
-    console.log(1);
+    addDot = "."
 })
 //Number Event Listeners
 
 one.addEventListener('click', () =>{
-    console.log(1);
+   number = 1;
 })
 two.addEventListener('click', () =>{
-    console.log(1);
+    number = 2;
 })
 three.addEventListener('click', () =>{
-    console.log(1);
+    number = 3;
 })
 four.addEventListener('click', () =>{
-    console.log(1);
+    number = 4;
 })
 five.addEventListener('click', () =>{
-    console.log(1);
+    number = 5;
 })
 six.addEventListener('click', () =>{
-    console.log(1);
+    number = 6;
 })
 seven.addEventListener('click', () =>{
-    console.log(1);
+    number = 7;
 })
 eight.addEventListener('click', () =>{
-    console.log(1);
+    number = 8;
 })
 nine.addEventListener('click', () =>{
-    console.log(1);
+    number = 9;
 })
 zero.addEventListener('click', () =>{
+    number = 0;
 })
+function sumNums(){
+    switch(operation){
+        case "+":
+            break; 
+    }
+}
